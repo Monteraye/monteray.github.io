@@ -7,14 +7,14 @@
       return setInterval(() => {
         let date = new Date();
         let tick = date.toLocaleTimeString();
-        clockDiv.textContent = tick;
+        clockDiv.textContent = "\u0022" + tick + "\u0022";
       }, 1000);
     }
   </script>
 </head>
 
 <body onload="clock()">
-  <div id="clock"></div>
+  <p id="clock"></p>
 </body>
 
 <body>
