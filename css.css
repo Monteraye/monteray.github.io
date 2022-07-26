@@ -1,16 +1,16 @@
 #discord_link {
     color: black;
-    font-size: 13;
+    /*font-size: 14;*/
   }   
 
 
 p {
-  font-size: 13;
+  /*font-size: 14;*/
   
   }   
 
 a {
-  font-size: 13;
+  /*font-size: 14;*/
   color: black;
 }
 
@@ -51,5 +51,5 @@ img {
   right: 10px;
   top: 0px;
   z-index: 100;
-  color: white;
+  color: black;
 }
