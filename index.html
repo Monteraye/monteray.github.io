@@ -1,33 +1,38 @@
 <html>
 <head>
-  <link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="css.css">
   <script>
     function clock() {
       var clockDiv = document.querySelector("#clock");
       return setInterval(() => {
         let date = new Date();
         let tick = date.toLocaleTimeString();
-        clockDiv.textContent = "\u0022" + tick + "\u0022";
+        clockDiv.textContent = tick;
       }, 1000);
     }
   </script>
-</head>
+
 
 <body onload="clock()">
-  <p id="clock"></p>
-</body>
 
-<body>
+
+<header class="sidenav">
     <p>
-        "MONTERAY"
+        MONTERAY
     </p>
     <p>
-        "RUST"
+        RUST
     </p>
     <p>
-        "C++"
+        C++
     </p>
-    <a href="https://discord.gg/dKjsnDfUrc" id="discord_link" style:"color:rgb(0,0,0);">"DISCORD"</a>
-    
+    <a href="https://discord.gg/dKjsnDfUrc">DISCORD</a>
+
+    <p id="clock"></p>
+</header>
+<img src="1.jpg" alt="1" class="center">
+<div></div>
+<img src="Jiji.jpg" alt="2" class="center">
 </body>
+</head>
 </html>
