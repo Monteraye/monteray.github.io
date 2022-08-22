@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #F8F0E3;
 }
 html {
   overflow-y: scroll;
@@ -25,11 +25,11 @@ html {
 h1, h2, h3, h4 {
   margin: 2.5rem 0 1.5rem 0;
   line-height: 1.25;
-  color: whitesmoke;
+  color: #333;
 }
 
 a {
-  color: whitesmoke;
+  color: #444;
   text-decoration: none;
 }
 a:hover, a:focus, a:active {
@@ -41,7 +41,7 @@ p {
   line-height: 1.5;
 }
 p code {
-  background-color: black;
+  background-color: #F8F0E3;
   padding: 0.05em 0.2em;
   border: 1px solid #ccc;
 }
@@ -94,7 +94,7 @@ table thead, table tr {
   width: 100%;
 }
 table tr:nth-child(even) {
-  background-color: black;
+  background-color: #F8F0E3;
 }
 table tbody {
   display: block;
@@ -179,7 +179,7 @@ header a + a {
 .posts .post a {
   display: flex;
   padding: 0.5em 0;
-  color: black;
+  color: #333;
 }
 .posts .post a:hover, .posts .post a:focus, .posts .post a:active {
   text-decoration: none;
